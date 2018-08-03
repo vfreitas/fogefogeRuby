@@ -15,6 +15,6 @@ def desenha_mapa(mapa)
 end
 
 def pede_movimento
-	puts "Para qual direcao deseja ir?"
+	puts "\n\nPara qual direcao deseja ir?"
 	movimento = gets	
 end
