@@ -9,3 +9,12 @@ def da_boas_vindas
 	nome
 end
 
+def desenha_mapa(mapa)
+	puts mapa
+	
+end
+
+def pede_movimento
+	puts "Para qual direcao deseja ir?"
+	movimento = gets	
+end
