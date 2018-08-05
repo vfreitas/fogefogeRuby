@@ -11,7 +11,7 @@ def encontra_jogador(mapa)
 	for linha in 0..(mapa.size-1)
 		linha_atual = mapa[linha]
 		coluna_do_heroi = linha_atual.index(heroi)
-		if heroi_esta_aqui
+		if coluna_do_heroi != nil
 			#achei o h
 		end
 	end
